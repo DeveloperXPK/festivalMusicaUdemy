@@ -1,0 +1,26 @@
+{
+  "name": "musicialFestival",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y NPM",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/scss:dist/css",
+    "gulp": "gulp css",
+    "dev": "gulp"
+  },
+  "keywords": [
+    "Gulp",
+    "SASS",
+    "NPM"
+  ],
+  "author": "Andres Giraldo @DeveloperXPK",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.0",
+  "devDependencies": {
+    "gulp": "5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "1.97.2"
+  }
+}
